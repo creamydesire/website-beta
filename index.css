@@ -1,0 +1,23 @@
+#size
+{
+	width: 8em;
+	height:8em;
+}
+#shift
+{
+	margin-left: 200px;
+}
+
+.mb-4
+{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#lshift
+{
+	margin-right: 15em;
+}
+#rshift
+{
+	margin-left: 10em;
+}
