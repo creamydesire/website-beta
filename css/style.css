@@ -9348,9 +9348,12 @@ textarea.form-control {
       height: 10px;
       margin: 5px;
       border-radius: 50%;
-      background: rgba(0, 0, 0, 0.2); }
+      background: rgba(0, 0, 0, 0.2);
+      outline: none;
+     }
       .testimony-section .owl-dots .owl-dot.active {
-        background: #c8a97e; }
+        background: #c8a97e;
+       }
 
 .testimony-wrap {
   display: block;
@@ -9789,3 +9792,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    /* addtitional setup */
+
+.testimony-wrap .text>img{
+  height: 70vh;
+  width: 100%;
+}
