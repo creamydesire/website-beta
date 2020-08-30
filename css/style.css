@@ -5094,7 +5094,7 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: scroll; }
   .carousel-inner::after {
     display: block;
     clear: both;
