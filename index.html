@@ -5,7 +5,7 @@
   <title>Creamy Desire</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="index.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
 
@@ -31,6 +31,30 @@
 </head>
 
 <body>
+  <div class="py-1 bg-black top">
+    <div class="container">
+      <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+        <div class="col-lg-12 d-block">
+          <div class="row d-flex">
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+              </div>
+              <span class="text">+ 91 123455546565</span>
+            </div>
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                  class="icon-paper-plane"></span></div>
+              <span class="text">youremail@email.com</span>
+            </div>
+            <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+              <p class="mb-0 register-link"><span>Open hours:</span> <span>Monday - Sunday</span> <span>8:00AM -
+                  9:00PM</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html">Creamy Desire</a>
@@ -49,12 +73,13 @@
                 aria-haspopup="true" aria-expanded="false">Menu
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <a href="cake.html"><button class="dropdown-item" type="button">Cakes</button></a>
-                <a href="fusion.html"><button class="dropdown-item" type="button">Fusion Cakes</button></a>
-                <a href="customcake.html"><button class="dropdown-item" type="button">Custom Cakes</button></a>
-                <a href="jarCake.html"><button class="dropdown-item" type="button">Jar Cakes</button></a>
+                <a href="cake.html">
+                  <button class="dropdown-item" type="button">Cakes</button></a>
+                <a href="fusion.html">
+                  <button class="dropdown-item" type="button">Fusion Cakes</button></a>
+                <a href="customcake.html">
+                  <button class="dropdown-item" type="button">Custom Cakes</button></a>
                 <a href="brownies.html"><button class="dropdown-item" type="button">Brownies</button></a>
-                <a href="pastries.html"><button class="dropdown-item" type="button">Pastries</button></a>
                 <a href="doughnuts.html"><button class="dropdown-item" type="button">Doughnuts</button></a>
               </div>
             </div>
@@ -70,50 +95,57 @@
 
 <!-- home Slider  start -->
   <section class="home-slider owl-carousel js-fullheight">
-    <div class="slider-item js-fullheight" style="background-image:url(./images/HomePage_Images/Screenshot_20200830-152443__01__01.jpg);background-size: 100%;">
+    <div class="slider-item js-fullheight" style="background-image:url(./images/cake-image3.jpg);">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
           <div class="col-md-12 col-sm-12 text-center ftco-animate">
             <img class="head-img" id="size"
             src="./images/logo-image.png" alt="">
-            <h1 class="mb-4">Freshness Baked Everyday</h1>
+            <h1 class="mb-4">Best Bakery In The Town</h1>
+            <a href="#second-session" class="btn btn-primary btn-scroll btn-scroll"> Scroll Down</a>
           </div>
 
         </div>
       </div>
     </div>
 
-    <div class="slider-item js-fullheight" style="background-image: url(./images/HomePage_Images/minion_cake.jpg);background-size: 100%;">
+    <div class="slider-item js-fullheight" style="background-image: url(./images/cake-image2.jpg);">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
           <div class="col-md-12 col-sm-12 text-center ftco-animate">
             <img id="size" src="./images/logo-image.png">
-            <h1 class="mb-4">Freshness Baked Everyday</h1>
+            <h1 class="mb-4">Best Bakery In The Town</h1>
+            <a href="#second-session" class="btn btn-primary btn-scroll"> Scroll Down</a>
           </div>
 
         </div>
       </div>
     </div>
 
-    <div class="slider-item js-fullheight" style="background-image: url(./images/HomePage_Images/Screenshot_20200830-152507__01.jpg);background-size: 100%">
+    <div class="slider-item js-fullheight" style="background-image: url(./images/cake-image.1png.jpg);">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
           <div class="col-md-12 col-sm-12 text-center ftco-animate">
           <img id="size" src="./images/logo-image.png">
-            <h1 class="mb-4">Freshness Baked Everyday</h1>
+            <h1 class="mb-4">Best Bakery In The Town</h1>
+            <a href="#second-session" class="btn btn-primary btn-scroll"> Scroll Down</a>
           </div>
 
         </div>
       </div>
     </div>
+    
   </section>
 
   <!-- home slider end -->
 
-  <section sclass="ftco-section ftco-wrap-about">
+  <section class="ftco-section ftco-wrap-about" id="second-session">
     <div class="container">
       <div class="row">
         <div class="col"><img src="./images/cake-image.png">
@@ -121,7 +153,8 @@
         <div id="" class="col-md-5 wrap-about pt-5 pt-md-5 pb-md-3 ftco-animate fadeInUp ftco-animated">
           <h2 class="mb-4">Connecting through Celebration</h2>
           <p class="textcolor">We believe cakes are the hallmarks of celebration and we feel privileged to be a part of
-            life’s special moments.</p><a href="about.html"><input type="submit" value="Know More" name=""></a>
+            life’s special moments.</p>
+            <a href="about.html" class="btn btn-primary ">Know More</a>
         </div>
         <!-- <div id="topb" class="col">
           <h1>CONNECTING THROUGH CELEBRATION</h1>
@@ -131,7 +164,53 @@
       </div>
     </div>
   </section>
- 
+  <section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
+    <div class="container">
+      <div class="row d-md-flex">
+        <div class="col-md-9">
+          <div class="row d-md-flex align-items-center">
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <strong class="number" data-number="18">0</strong>
+                  <span>Years of Experienced</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <strong class="number" data-number="100">0</strong>
+                  <span>Menus/Dish</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <strong class="number" data-number="50">0</strong>
+                  <span>Staffs</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4 mb-lg-0 d-flex justify-content-center counter-wrap ftco-animate">
+              <div class="block-18">
+                <div class="text">
+                  <strong class="number" data-number="15000">0</strong>
+                  <span>Happy Customers</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 text-center text-md-left">
+          <p class="textcolor">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="ftco-section bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-2">
@@ -146,8 +225,9 @@
               <span class="flaticon-cake"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Custom made cakes</h3>
-              <p class="textcolor">we offer custom made services, meaning the client can show or tell us what kind of cake they need and how they envision it to and we will bring it to life.</p>
+              <h3 class="heading">Birthday Party</h3>
+              <p class="textcolor">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
             </div>
           </div>
         </div>
@@ -157,8 +237,9 @@
               <span class="flaticon-meeting"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Birthday party</h3>
-              <p class="textcolor">Apart from making delicious eggless birthday cakes, we cater to birthday parties via our hampers and jar cakes.</p>
+              <h3 class="heading">Business Meetings</h3>
+              <p class="textcolor">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
             </div>
           </div>
         </div>
@@ -168,8 +249,9 @@
               <span class="flaticon-tray"></span>
             </div>
             <div class="media-body p-2 mt-3">
-              <h3 class="heading">Outsourcing</h3>
-              <p class="textcolor">We are ready to help other bakeries and bakers by providing our services to them too. So that everyone gets their hands on our award-winning experience.</p>
+              <h3 class="heading">Wedding Party</h3>
+              <p class="textcolor">Even the all-powerful Pointing has no control about the blind texts it is an almost
+                unorthographic.</p>
             </div>
           </div>
         </div>
@@ -373,59 +455,54 @@
   </section>
 
 
-  <footer  class="ftco-footer ftco-bg-dark ftco-section">
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div id="rshift" class="container">
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3">
-           <div class="ftco-footer-widget mb-4">
-          <h2 class="ftco-heading-2">Creamy Desire</h2>
-          <p>Address – Jai Hind kothi kewanaganj
-            Bahraich – 271801
-         
-          <p>Email- creamydesire01@gmail.com
-          Phone- +91-7379360254</p>
-          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-             
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-          </ul>
-        </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Instagram</h2>
-            <div class="thumb d-sm-flex">
-              <a href="#" class="thumb-menu img" style="background-image: url(images/insta_1.jpg);">
-              </a>
-              <a href="#" class="thumb-menu img" style="background-image: url(images/insta_2.jpg);">
-              </a>
-              <a href="#" class="thumb-menu img" style="background-image: url(images/insta_3.jpg);">
-              </a>
-            </div>
-             <div class="thumb d-flex">
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_4.jpg);">
-                </a>
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_5.jpg);">
-                </a>
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_6.jpg);">
-                </a>
-              </div>
-              <div class="thumb d-flex">
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_7.jpg);">
-                </a>
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_8.jpg);">
-                </a>
-                <a href="#" class="thumb-menu img" style="background-image: url(images/insta_9.jpg);">
-                </a>
-             </div>
-            
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Creamy Desire</h2>
+            <p>Lucknow</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-
-       </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Open Hours</h2>
+            <ul class="list-unstyled open-hours">
+              <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+              <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+              <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Instagram</h2>
+            <div class="thumb d-sm-flex">
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-1.jpg);">
+              </a>
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-2.jpg);">
+              </a>
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-3.jpg);">
+              </a>
+            </div>
+            <div class="thumb d-flex">
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-4.jpg);">
+              </a>
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-5.jpg);">
+              </a>
+              <a href="#" class="thumb-menu img" style="background-image: url(images/insta-6.jpg);">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
