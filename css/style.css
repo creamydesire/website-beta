@@ -44,9 +44,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  scroll-behavior: smooth;
- }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -2032,10 +2030,6 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-      .btn-scroll{
-        border-radius: 3rem !important;
-       
-      }
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -5100,7 +5094,7 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden; }
+  overflow: scroll; }
   .carousel-inner::after {
     display: block;
     clear: both;
@@ -8184,7 +8178,6 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: 50px;
   left: 0;
   right: 0;
   z-index: 3;
@@ -9816,47 +9809,4 @@ textarea.form-control {
   font-weight: 400;
   color: #fff;
   opacity: 1 !important;
-}
-/* additional changes */
-#size
-{
-	width: 8em;
-	height:8em;
-	margin: 0 auto;
-}
-.subheading img{
-	width: 8em;
-	height:8em;
-	margin: 0 auto;
-}
-
-
-.mb-4
-{
-	font-family: 'Permanent Marker', cursive;
-}
-
-#lshift
-{
-	margin-right: 15em;
-}
-#rshift
-{
-	margin-left: 10em;
-}
-#topb
-{
-	margin: auto; 
-}
-
-
-.b1
-{
-	background-color: transparent;
-	color: white;
-	border: none;
-}
-.textcolor
-{
-	color: black;
 }
